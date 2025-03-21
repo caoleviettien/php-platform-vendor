@@ -10,6 +10,8 @@
           "email": "support@vietnix.vn"
       }
   ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,  
   "autoload": {
       "psr-4": {
           "Vietnix\\PlatformVendor\\": "src/"
