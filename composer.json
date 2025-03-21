@@ -1,0 +1,21 @@
+{
+  "name": "vietnix/php-platform-vendor",
+  "description": "Send logs to a custom endpoint",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+      {
+          "name": "Vietnix",
+          "email": "support@vietnix.vn"
+      }
+  ],
+  "autoload": {
+      "psr-4": {
+          "Vietnix\\PlatformVendor\\": "src/"
+      }
+  },
+  "require": {
+      "guzzlehttp/guzzle": "^7.0"
+  }
+}
